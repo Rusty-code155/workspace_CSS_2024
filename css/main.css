@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+================================
+#0 css variable */
+:root{
+--body-color: hsla(120, 96%, 28%, 0.8); 
+--page-color: hsla(34, 89%, 45%, 0.75);
+--sidebar-color:hsla(2, 85%, 44%, 0.776);
+/* font color*/
+--font-color:rgb(31, 2, 24);
+--page-top-position:85%;
+}
+
+/*
+================================
+#1 Color
+*/
+body{
+    background-color: var(--body-color);
+}
+.sidebar{
+    background-color: var(--sidebar-color);
+}
+
+#side{
+    overflow-x: hidden;
+    overflow-y:scroll;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top:0px;
+    left:0px;
+}
+
+.practicearea{
+    top: 10px;
+    left: 32%;
+    width: 67%;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+
+.practice{
+    margin-right: 10px;
+    margin-bottom:20px;
+    padding:30px;
+    background-color:#f5f9fa;
+    border-left:4px solid #3f87a6;
+    border-radius:6px;
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.05);
+    box-shadow:0 1px 1px rgba(0,0,0,0.05);
+    background-image: url("../img/minus.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    text-indent: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.ahide{
+    height: 20px;
+    overflow: hidden;
+    text-indent: -99999px;
+    background-image: url("../img/plus.png");
+}
+
+
+h1{
+/* finish it*/
+}
+/* 02 Layout */
+div.explanation, div.requirement, div.benefits, div.participation
+{
+    position: fixed;
+    width:var(--page-width);
+    top:var(--page-top-position);
+    background-image:url(../img/newspaper3.jpg);
+}
+
+div.explanation
+{
+left:20%;
+
+}
+
+div.requirement
+{ 
+    left:50%;
+}
+
+aside.sidebar
+{
+    position: absolute;
+    top:20%;
+    right:0;
+    /*bottom:0%;*/
+    /*adjust width/height*/
+}
+section.intro
+{
+    position: absolute;
+    top:40%;
+    right:20;
+    /*finish as much as can */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
