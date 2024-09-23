@@ -13,6 +13,9 @@ and open the template in the editor.
 /* font color*/
 --font-color:rgb(31, 2, 24);
 --page-top-position:85%;
+--page-width: 30%;
+--bottom-bar-height:15vh;
+--bottom-bar-color:hsla(119, 90%, 35%, 0.776);
 }
 
 /*
@@ -105,7 +108,14 @@ section.intro
     position: absolute;
     top:40%;
     right:20;
+    bottom:5%;
+    height:80%;
+    background-image:url(../img/blue-background.svg);
     /*finish as much as can */
+}
+div.extra2
+{
+
 
 }
 
