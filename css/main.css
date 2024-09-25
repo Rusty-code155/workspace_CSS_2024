@@ -158,3 +158,10 @@ li
 visibility: hidden;
 
 }
+/*creating tabs for the folder*/
+div.explanation h3, div.requiremets h3,div.benefits h3,div.participation h3
+{
+    margin-top: -5%;
+    width:12vw;
+    background-color: bisque;
+}
