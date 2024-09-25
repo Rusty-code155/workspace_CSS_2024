@@ -18,7 +18,6 @@ and open the template in the editor.
 --bottom-bar-height:15vh;
 --bottom-bar-color:hsla(119, 90%, 35%, 0.776);
 }
-
 /*
 ================================
 #1 Color
@@ -31,7 +30,6 @@ body
 {
     background-color: var(--sidebar-color);
 }
-
 #side
 {
     overflow-x: hidden;
@@ -42,7 +40,6 @@ body
     top:0px;
     left:0px;
 }
-
 .practicearea
 {
     top: 10px;
@@ -52,7 +49,6 @@ body
     height: 100%;
     overflow: auto;
 }
-
 .practice
 {
     margin-right: 10px;
@@ -69,7 +65,6 @@ body
     text-indent: 0px;
     transition: all 0.5s ease-in-out;
 }
-
 .ahide
 {
     height: 20px;
@@ -95,12 +90,10 @@ div.explanation
 left:20%;
 
 }
-
 div.requirement
 { 
     left:50%;
 }
-
 aside.sidebar
 {
     position: absolute;
@@ -137,14 +130,12 @@ div.extra1
     bottom:10%;
     height:70%;   
 }
-
 /*Typography*/
 @font-face 
 {
     font-family: 'myfont' ;
     src: url(../fonts/chunkfive.eot);
 }
-
 header h1
 {
     font-family: 'myfont',sans-serif;
