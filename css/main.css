@@ -3,9 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/*
-================================
-#0 css variable */
+/*================================#0 css variable */
 :root
 {
 --body-color: hsla(120, 96%, 28%, 0.8); 
@@ -18,10 +16,7 @@ and open the template in the editor.
 --bottom-bar-height:15vh;
 --bottom-bar-color:hsla(119, 90%, 35%, 0.776);
 }
-/*
-================================
-#1 Color
-*/
+/*================================#1 Color*/
 body
 {
     background-color: var(--body-color);
@@ -143,4 +138,8 @@ header h1
     font: size 1.2em;
     letter-spacing: normal;
     line-height: 1em;
+}
+header h2
+{
+    font-family: 'Ranchers',cursive;
 }
