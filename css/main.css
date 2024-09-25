@@ -70,8 +70,6 @@ body{
     text-indent: -99999px;
     background-image: url("../img/plus.png");
 }
-
-
 h1
 {
 /* finish it*/
@@ -85,7 +83,6 @@ div.explanation, div.requirement, div.benefits, div.participation
     top:var(--page-top-position);
     background-image:url(../img/newspaper3.jpg);
 }
-
 div.explanation
 {
 left:20%;
