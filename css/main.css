@@ -110,15 +110,23 @@ section.intro
     bottom:5%;
     height:80%;
     background-image:url(../img/blue-background.svg);
+    margin: 10px;
     /*finish as much as can */
 }
 div.extra2
 {
+    z-index:initial ;
     position: fixed;
     top:40%;
-    right:20;
+    right:20%;
     bottom:5%;
     height:80%;
     background-image:url(../img/newspaper2.jpg);
-
+}
+div.extra1
+{
+    top:60%;
+    right:40%;
+    bottom:10%;
+    height:70%;   
 }
