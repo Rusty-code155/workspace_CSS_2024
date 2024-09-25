@@ -115,7 +115,12 @@ section.intro
 }
 div.extra2
 {
-
+    position: fixed;
+    top:40%;
+    right:20;
+    bottom:5%;
+    height:80%;
+    background-image:url(../img/newspaper2.jpg);
 
 }
 
