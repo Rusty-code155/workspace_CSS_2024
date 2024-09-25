@@ -138,9 +138,23 @@ header h1
     font: size 1.2em;
     letter-spacing: normal;
     line-height: 1em;
-    
+
 }
 header h2
 {
     font-family: 'Ranchers',cursive;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    list-style-type: none;
+}
+
+#design-selection h3
+{
+visibility: hidden;
+
 }
