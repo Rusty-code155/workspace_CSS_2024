@@ -6,7 +6,8 @@ and open the template in the editor.
 /*
 ================================
 #0 css variable */
-:root{
+:root
+{
 --body-color: hsla(120, 96%, 28%, 0.8); 
 --page-color: hsla(34, 89%, 45%, 0.75);
 --sidebar-color:hsla(2, 85%, 44%, 0.776);
@@ -22,14 +23,17 @@ and open the template in the editor.
 ================================
 #1 Color
 */
-body{
+body
+{
     background-color: var(--body-color);
 }
-.sidebar{
+.sidebar
+{
     background-color: var(--sidebar-color);
 }
 
-#side{
+#side
+{
     overflow-x: hidden;
     overflow-y:scroll;
     width: 30%;
@@ -39,7 +43,8 @@ body{
     left:0px;
 }
 
-.practicearea{
+.practicearea
+{
     top: 10px;
     left: 32%;
     width: 67%;
@@ -48,7 +53,8 @@ body{
     overflow: auto;
 }
 
-.practice{
+.practice
+{
     margin-right: 10px;
     margin-bottom:20px;
     padding:30px;
@@ -64,7 +70,8 @@ body{
     transition: all 0.5s ease-in-out;
 }
 
-.ahide{
+.ahide
+{
     height: 20px;
     overflow: hidden;
     text-indent: -99999px;
@@ -132,7 +139,8 @@ div.extra1
 }
 
 /*Typography*/
-@font-face {
+@font-face 
+{
     font-family: 'myfont' ;
     src: url(../fonts/chunkfive.eot);
 }
