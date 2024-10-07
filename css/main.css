@@ -6,15 +6,15 @@ and open the template in the editor.
 /*================================#0 css variable */
 :root
 {
---body-color: hsla(120, 96%, 28%, 0.8); 
+--body-color: hsla(120, 5%, 33%, 0.393); 
 --page-color: hsla(34, 89%, 45%, 0.75);
---sidebar-color:hsla(2, 85%, 44%, 0.776);
+--sidebar-color:hsla(34, 33%, 45%, 0.457);
 /* font color*/
 --font-color:rgb(31, 2, 24);
 --page-top-position:85%;
 --page-width: 30%;
 --bottom-bar-height:15vh;
---bottom-bar-color:hsla(119, 90%, 35%, 0.776);
+--bottom-bar-color:hsla(120, 5%, 33%, 0.393);
 }
 /*================================#1 Color*/
 body
@@ -73,19 +73,20 @@ h1
     border:#022b3d
 }
 /* 02 Layout */
-div.explanation, div.requirement, div.benefits, div.participation
+div.explanation, div.requirements, div.benefits, div.participation
 {
     position: fixed;
     width:var(--page-width);
     top:var(--page-top-position);
     background-image:url(../img/newspaper3.jpg);
 }
+div.participation{left:20%}
+div.benefits{left:40%;}
 div.explanation
 {
-left:20%;
-
+left:10%;
 }
-div.requirement
+div.requirements
 { 
     left:50%;
 }
@@ -159,9 +160,27 @@ visibility: hidden;
 
 }
 /*creating tabs for the folder*/
-div.explanation h3, div.requiremets h3,div.benefits h3,div.participation h3
+div.explanation h3, div.requirements h3,div.benefits h3,div.participation h3
 {
     margin-top: -5%;
     width:12vw;
     background-color: bisque;
+}
+/*Selection*/
+a:hover{font-size:1.5em;}
+
+div.explanation:hover,div.requirements:hover,div.benefits:hover,div.participation:hover
+{
+    top:15vh;
+    height:90vh;
+}
+
+p::first-letter{font-size: 1.5em;
+font-style: italic;}
+p:nth-child(2n){
+font-style: oblique;
+background-color: aliceblue;
+}
+p:nth-child(2n+1){font-style: inherit;
+background-color: bisque;
 }
