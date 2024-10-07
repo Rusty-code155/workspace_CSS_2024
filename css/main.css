@@ -184,3 +184,4 @@ background-color: aliceblue;
 p:nth-child(2n+1){font-style: inherit;
 background-color: bisque;
 }
+h3{text-shadow: #3f87a6;}
