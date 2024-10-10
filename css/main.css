@@ -100,14 +100,16 @@ aside.sidebar
 }
 section.intro
 {
-    position: absolute;
-    top:40%;
-    right:20;
-    bottom:5%;
+    position: fixed;
+    top:30%;
+    right:20%;
+    bottom:10%;
     height:80%;
     background-image:url(../img/blue-background.svg);
     margin: 10px;
+    width: 70%;
     /*finish as much as can */
+    transform: rotate(-10deg) translate(-100px,0);
 }
 div.extra2
 {
@@ -125,6 +127,7 @@ div.extra1
     right:40%;
     bottom:10%;
     height:70%;   
+    transform:rotate(12deg);
 }
 /*Typography*/
 @font-face 
@@ -165,6 +168,7 @@ div.explanation h3, div.requirements h3,div.benefits h3,div.participation h3
     margin-top: -5%;
     width:12vw;
     background-color: bisque;
+    transition:all 4s ease-in-out;
 }
 /*Selection*/
 a:hover{font-size:1.5em;}
@@ -186,3 +190,31 @@ background-color: bisque;
 }
 h3{text-shadow: #3f87a6;}
 
+/* list style image*/
+ul{list-style-image:url(../img/star.png)}
+/*Transform*/
+section.intro h3:hover ~p
+{
+transform: scale(0.2);
+opacity: 0;
+}
+@keyframes backandforth{from {transform: translate(-400px,0);}
+30%{transform: translate((-300px,0));}
+50%{transform: translate(300px,0)}
+70%{transform: translate(400px,0)}
+90%{transform: translate(500px,0)}
+}
+footer
+{
+    position:fixed;
+    bottom: 1vh;
+    left: 50%;
+    animation: 10s ease-in-out 2s alternate infinite backandforth;
+}
+/*fun feature
+body{clip-path: circle(60% at 50vw 50vh);}
+*/
+aside.sidebar{
+
+    clip-path: polygon(0 0,0 30%,50% 90%, 100% 30%, 100% 0);
+}
